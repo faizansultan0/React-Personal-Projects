@@ -1,0 +1,53 @@
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+
+.form {
+    width: 300px;
+    padding: 40px 20px;
+    background-color: rgb(218, 179, 38);
+    border-radius: 14px;
+}
+
+.success {
+    padding: 8px 10px;
+    width: 100%;
+    background-color: cornflowerblue;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.inputElement {
+    margin-bottom: 10px;
+    width: 100%;
+    background-color: rgb(249, 249, 249);
+    color: grey;
+    border: none;
+    color: black;
+    padding: 8px 10px;
+    border-radius: 6px;
+}
+
+.inputElement:focus-visible {
+    outline: none;
+}
+
+.button {
+    border: none;
+    background-color: rgb(25, 143, 137);
+    border-radius: 24px;
+    padding: 6px 20px;
+    transition: background 0.2s ease-out;
+}
+
+.button:hover {
+    background-color: rgb(43, 161, 155);
+}
+
+.warning-txt {
+    margin-top: -10px;
+    display: block;
+}
