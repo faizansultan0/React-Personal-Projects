@@ -31,10 +31,12 @@ function App() {
             </thead>
             <tbody>
               {users.filter((user) => {
-                if (keyword == '') {
+                if (keyword === '') {
                   return user;
                 } else if (user.first_name.toLowerCase().includes(keyword.toLowerCase()) || user.last_name.toLowerCase().includes(keyword.toLowerCase())) {
                   return user;
+                } else {
+                  return false;
                 }
               }).map((user) => {
                 return (
