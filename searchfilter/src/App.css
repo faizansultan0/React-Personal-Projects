@@ -1,0 +1,46 @@
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.input-parent {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.searchInput {
+  padding: 8px;
+  font-size: 20px;
+  border-radius: 20px;
+  border: 2px solid skyblue;
+}
+
+.searchInput:focus-visible {
+  border: 2px solid skyblue;
+  outline: 0;
+}
+
+.table-parent {
+  display: flex;
+  justify-content: center;
+  overflow: auto;
+}
+
+th, td {
+  min-width: 250px;
+}
+
+.tr {
+  border-bottom: 2px solid blue;
+}
